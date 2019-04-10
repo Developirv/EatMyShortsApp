@@ -66,7 +66,7 @@ spotify:show:441Ajk0RlCQpSzUQX0k7Hm
 https://open.spotify.com/show/441Ajk0RlCQpSzUQX0k7Hm?si=CVc7VHesSam5VLxrj_S50A
 
 ## Apple Podcasts:
-"."
+https://t.co/dRIrIlxHUV
 
 ## Twitter: 
 https://twitter.com/eatmyshortspod
