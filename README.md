@@ -60,20 +60,23 @@ Heroku App Link:
 
 ## Eat My Shorts Media Links:
 
-Spotify: spotify:show:441Ajk0RlCQpSzUQX0k7Hm
+## Spotify 
+spotify:show:441Ajk0RlCQpSzUQX0k7Hm
 
 https://open.spotify.com/show/441Ajk0RlCQpSzUQX0k7Hm?si=CVc7VHesSam5VLxrj_S50A
 
-Apple Podcasts:
-
+## Apple Podcasts:
 "."
 
-Twitter: @eatmyshortspod
+## Twitter: 
+https://twitter.com/eatmyshortspod
 
-Instagram: @eatmyshortspod
+@eatmyshortspod
 
-Show Trello:
+## Instagram: 
+https://instagram.com/eatmyshortspod
 
+@eatmyshortspod
 
 ##  React Information below for project needs. Will Delete prior to final commit. 
 
