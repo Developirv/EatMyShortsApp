@@ -28,7 +28,21 @@ A guest can only use the features outlined above after successfully signing-in.
 
 ## Episode Entries
 
-As a user: I want to see the “Episode Entry” on an individual entry for each post.  The view will allow the user to view the entry details including Episode title, year of origin, Show notes from the hosts, and original artwork made by the hosts for the episode.  The user will be able to leave a comment if they have registered.  A registered user will also be able to rate each episode on this entry.
+As a user: I want to see the “Episode Entry” on an individual entry for each post.  The view will allow the user to view the entry details including Episode title, year of origin, Show notes from the hosts, and original artwork made by the hosts for the episode.  
+
+The "Create An Episode" view will allow the hosts to add in the following new data to the database: 
+
+   Episode Title: 
+   Episode Description: 
+   Episode Date: 
+   Episode Original Air Date:
+   Episode Show Notes: 
+   Episode Rating: 
+   Episode Link: 
+
+   Upon clicking "submit" this information will be added to the database with other previous Episode entries.
+
+The user will be able to leave a comment if they have registered.  
 
 ## Home Page
 
@@ -57,8 +71,12 @@ Nodejs
 Trello Board: 
 
 
-
 Heroku App Link: 
+
+IMGUR: Image Hosting for project:
+
+https://eatmyshortspod.imgur.com/all
+
 
 ## Eat My Shorts Media Links:
 

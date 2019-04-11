@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import CreateEpisode from "./components/create-episodes.component";
-import EditEpisodes from "./components/edit-episodes.component";
-import EpisodesList from "./components/episodes-list.component";
+import CreateEpisode from "./components/CreateEpisodes/CreateEpisodes.jsx";
+import EditEpisodes from "./components/EditEpisodes/EditEpisodes.jsx";
+import EpisodeList from "./components/EpisodeList/EpisodeList.jsx";
 import logo from "./logo.png";
+
 
 class App extends Component {
   render() {
@@ -32,7 +33,7 @@ class App extends Component {
            </div>
           </nav>
         <br/>
-        <Route path="/" exact component={EpisodesList} />
+        <Route path="/" exact component={EpisodeList} />
         <Route path="/edit/:id" component={EditEpisodes} />
         <Route path="/create" component={CreateEpisode} />
         </div>

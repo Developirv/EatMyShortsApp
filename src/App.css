@@ -29,10 +29,24 @@
 
 .logo {
   background-image: './logo.png';
+  border-radius: 50px;
+  border-color: black;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.nav {
+  color: pink;
+}
+
+.navbar-brand {
+  color: pink;
+}
+
+.navbar-item {
+  color: pink;
 }
 
 @keyframes App-logo-spin {

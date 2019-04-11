@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import styles from './EditEpisodes.module.css'
+
 
 export default class EditEpisodes extends Component {
     render() {
