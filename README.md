@@ -70,8 +70,11 @@ Nodejs
 
 Trello Board: 
 
+https://trello.com/b/RhLrlwc4/eatmyshorts
 
 Heroku App Link: 
+
+https://eatmyshorts.herokuapp.com/
 
 IMGUR: Image Hosting for project:
 
