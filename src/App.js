@@ -7,7 +7,7 @@ import CreateEpisodesImage from "./components/CreateEpisodesImage/CreateEpisodes
 import EditEpisodes from "./components/EditEpisodes/EditEpisodes.jsx";
 import EpisodeList from "./components/EpisodeList/EpisodeList.jsx";
 import logo from "./logo.png";
-import login from "./components/login/login.jsx";
+import Login from './components/login/login.jsx';
 
 class App extends Component {
   render() {
@@ -24,6 +24,7 @@ class App extends Component {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav mr-auto">
           <li className="navbar-item">
+          <Link to="/login" className="navbar-brand"> Login/Signup</Link>  
             <Link to="/" className="nav-link"> Available Episodes</Link>
           </li>
           <li className="navbar-item">
@@ -33,8 +34,10 @@ class App extends Component {
            </ul> 
            </div>
           </nav>
-        <br/>
-        <Route path="/" exact component={EpisodeList} />
+        <br/> 
+        {/* <Route path='/' component={}/> */}
+        <Route path="/home" component={EpisodeList} />
+        <Route path="/login" component={Login}/>
         <Route path="/edit/:id" component={EditEpisodes} />
         <Route path="/create" component={CreateEpisode} />
         <Route path="/create" component={CreateEpisodesImage} />

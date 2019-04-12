@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, FormGroup, FormControl, } from "react-bootstrap";
+import { Button, Form, FormGroup, FormControl, Label } from "react-bootstrap";
 import styles from './login.module.css';
 
 export default class Login extends Component {
@@ -18,7 +18,7 @@ export default class Login extends Component {
   
     handleChange = event => {
       this.setState({
-        [event.target.id]: event.target.value
+        [event.target.id]: event.target.value 
       });
     }
   
@@ -29,7 +29,7 @@ export default class Login extends Component {
     render() {
       return (
         <div className="Login">
-          <form onSubmit={this.handleSubmit}>
+          <Form onSubmit={this.handleSubmit}>
             <FormGroup controlId="email" bsSize="large">
               <Form.Label>Email, dude!</Form.Label>
               <FormControl
@@ -55,7 +55,7 @@ export default class Login extends Component {
             >
               Login
             </Button>
-          </form>
+          </Form>
         </div>
       );
     }
