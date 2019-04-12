@@ -5,6 +5,10 @@ const logger = require('morgan');
 
 const app = express();
 
+const episodeRouter = require('./routes/episodes');
+
+
+
 require('dotenv').config()
 require('./config/database');
 
@@ -15,6 +19,9 @@ app.use(express.json());
 // to serve from the production 'build' folder
 app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, 'build')));
+
+app.use('/api', episodeRouter);
+
 
 
 // The following "catch all" route (note the *)is necessary
