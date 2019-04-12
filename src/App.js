@@ -3,6 +3,7 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import CreateEpisode from "./components/CreateEpisodes/CreateEpisodes.jsx";
+import CreateEpisodesImage from "./components/CreateEpisodesImage/CreateEpisodesImage.jsx";
 import EditEpisodes from "./components/EditEpisodes/EditEpisodes.jsx";
 import EpisodeList from "./components/EpisodeList/EpisodeList.jsx";
 import logo from "./logo.png";
@@ -36,6 +37,7 @@ class App extends Component {
         <Route path="/" exact component={EpisodeList} />
         <Route path="/edit/:id" component={EditEpisodes} />
         <Route path="/create" component={CreateEpisode} />
+        <Route path="/create" component={CreateEpisodesImage} />
         </div>
         </Router>
     );

@@ -6,13 +6,14 @@
     background-color: pink;
     color: whitesmoke;
     margin: 50px auto auto auto;
+    display: flex;
    }
    
    .SubmitButton {
-       padding-left: 5px;
-        background-color:whitesmoke;
+       background-color:whitesmoke;
        color: whitesmoke;
        border-radius: 100%;
        border: 10px solid pink;
+       padding: 2px 6px;
    }
    

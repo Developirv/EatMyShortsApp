@@ -1,21 +1,10 @@
 import React from 'react';
-import styles from './CreateEpisodes.module.css'
+import styles from './CreateEpisodesImage.module.css';
 
-
-  
-//render() {
-  //  return (
-    //      <div>
-      //  <p> Another one already? Get a job! But upload the new information first tho.</p>
-        //  </div>
-      //)
- //}
-
-function CreateEpisode(props){
+function CreateEpisodesImage(props){
     const handler = props.handleSubmit ?
     props.handleSubmit : props.handleUpdate
     return (
-            
             <form onSubmit={handler} className={styles.CreateEpisode}>
                 <input 
                 name={props.name} 
@@ -24,15 +13,11 @@ function CreateEpisode(props){
                 <button 
                 className={styles.SubmitButton}>
                     {props.buttonText}
-                </button>
-
-
-
-
-
+                </button>                
             </form>
         )
     }
     
-    export default CreateEpisode
+
+export default CreateEpisodesImage
    
