@@ -7,7 +7,7 @@ import CreateEpisodesImage from "./components/CreateEpisodesImage/CreateEpisodes
 import EditEpisodes from "./components/EditEpisodes/EditEpisodes.jsx";
 import EpisodeList from "./components/EpisodeList/EpisodeList.jsx";
 import logo from "./logo.png";
-
+import login from "./components/login/login.jsx";
 
 class App extends Component {
   render() {
