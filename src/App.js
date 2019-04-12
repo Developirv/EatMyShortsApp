@@ -16,7 +16,7 @@ class App extends Component {
       <Router>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="https://eatmyshortspod.com" target="blank"> 
+          <a class="navbar-brand" href="https://open.spotify.com/show/441Ajk0RlCQpSzUQX0k7Hm?si=CVc7VHesSam5VLxrj_S50A" target="blank"> 
              <img src={logo} width="30" height="30" alt="eatmyshortspod.com" />  
          </a>
        
