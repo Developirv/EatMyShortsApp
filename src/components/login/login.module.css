@@ -1,6 +1,9 @@
 @media all and (min-width: 480px) {
     .Login {
       padding: 60px 0;
+      color: pink;
+      background-color: whitesmoke;
+      border-block-end-color: yellow;
     }
   
     .Login form {

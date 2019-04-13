@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: pink;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@
 
 .logo {
   background-image: './logo.png';
-  border-radius: 50px;
+  border-radius: 100px;
   border-color: black;
 }
 

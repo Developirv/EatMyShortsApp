@@ -21,15 +21,15 @@ class App extends Component {
          </a>
        
         <Link to="/" className="navbar-brand"> Eat My Shorts</Link>  
+        <Link to="/login" className="navbar-brand"> Login/Signup</Link>  
+        <Link to="/list" className="nav-link"> Available Episodes</Link>
+        <Link to="/create" className="nav-link">Create an Episode entry </Link>
+
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav mr-auto">
-          <li className="navbar-item">
-          <Link to="/login" className="navbar-brand"> Login/Signup</Link>  
-            <Link to="/" className="nav-link"> Available Episodes</Link>
+          <li className="navbar-item"> 
           </li>
           <li className="navbar-item">
-            <Link to="/create" className="nav-link">Create an Episode entry </Link>
-    
              </li>
            </ul> 
            </div>
