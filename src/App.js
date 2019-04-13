@@ -7,7 +7,8 @@ import CreateEpisodesImage from "./components/CreateEpisodesImage/CreateEpisodes
 import EditEpisodes from "./components/EditEpisodes/EditEpisodes.jsx";
 import EpisodeList from "./components/EpisodeList/EpisodeList.jsx";
 import logo from "./logo.png";
-import Login from './components/login/login.jsx';
+import SignupPage from './pages/SignupPage/SignupPage.jsx';
+import LoginPage from './pages/LoginPage/LoginPage.jsx';
 
 class App extends Component {
   render() {
@@ -21,7 +22,8 @@ class App extends Component {
          </a>
        
         <Link to="/" className="navbar-brand"> Eat My Shorts</Link>  
-        <Link to="/login" className="navbar-brand"> Login/Signup</Link>  
+        <Link to="/login" className="navbar-brand"> Login</Link>  
+        <Link to="signup" className="navbar-brand">Sign Up</Link>
         <Link to="/list" className="nav-link"> Available Episodes</Link>
         <Link to="/create" className="nav-link">Create an Episode entry </Link>
 
@@ -37,15 +39,16 @@ class App extends Component {
         <br/> 
         {/* <Route path='/' component={}/> */}
         <Route path="/home" component={EpisodeList} />
-        <Route path="/login" component={Login}/>
+        <Route path="/signup" component={SignupPage}/>
+        <Route path="/login" component={LoginPage}/>
         <Route path="/edit/:id" component={EditEpisodes} />
         <Route path="/create" component={CreateEpisode} />
         <Route path="/create" component={CreateEpisodesImage} />
+        
         </div>
         </Router>
     );
   }
 }
-
 
 export default App;

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: pink;
 }
 
 .App-logo {
@@ -29,12 +30,14 @@
 
 .logo {
   background-image: './logo.png';
-  border-radius: 100px;
-  border-color: black;
+  border-radius: 2px;
+  display: inline;
 }
 
 .App-link {
-  color: #61dafb;
+  color: whitesmoke;
+  background-color: white;
+  font-size: 12px;
 }
 
 .nav {
