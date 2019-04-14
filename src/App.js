@@ -7,8 +7,8 @@ import CreateEpisodesImage from "./components/CreateEpisodesImage/CreateEpisodes
 import EditEpisodes from "./components/EditEpisodes/EditEpisodes.jsx";
 import EpisodeList from "./components/EpisodeList/EpisodeList.jsx";
 import logo from "./logo.png";
-import SignupPage from './pages/SignupPage/SignupPage.jsx';
-import LoginPage from './pages/LoginPage/LoginPage.jsx';
+import SignupPage from "./pages/SignupPage/SignupPage.jsx";
+import LoginPage from "./pages/LoginPage/LoginPage.jsx";
 
 class App extends Component {
   render() {
@@ -23,7 +23,7 @@ class App extends Component {
        
         <Link to="/" className="navbar-brand"> Eat My Shorts</Link>  
         <Link to="/login" className="navbar-brand"> Login</Link>  
-        <Link to="signup" className="navbar-brand">Sign Up</Link>
+        <Link to="signup" className="navbar-brand">Sign up</Link>
         <Link to="/list" className="nav-link"> Available Episodes</Link>
         <Link to="/create" className="nav-link">Create an Episode entry </Link>
 
@@ -44,7 +44,6 @@ class App extends Component {
         <Route path="/edit/:id" component={EditEpisodes} />
         <Route path="/create" component={CreateEpisode} />
         <Route path="/create" component={CreateEpisodesImage} />
-        
         </div>
         </Router>
     );
