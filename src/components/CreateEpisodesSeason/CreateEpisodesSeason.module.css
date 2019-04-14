@@ -1,0 +1,16 @@
+@media all and (min-width: 480px) {
+    .CreateEpisodesSeason {
+      padding: 60px 0;
+      color: pink;
+      background-color: whitesmoke;
+      border-block-end-color: yellow;
+      margin: 0 auto;
+      max-width: 320px;
+      font-size: 18px;
+      object-position: center;
+      background-color: whitesmoke;
+    }
+  }
+
+   
+ 

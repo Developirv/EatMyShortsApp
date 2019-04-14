@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import CreateEpisode from "./components/CreateEpisodes/CreateEpisodes.jsx";
+import CreateEpisodesSeason from "./components/CreateEpisodesSeason/CreateEpisodesSeason.jsx";
 import EditEpisodes from "./components/EditEpisodes/EditEpisodes.jsx";
 import EpisodeList from "./components/EpisodeList/EpisodeList.jsx";
 import logo from "./logo.png";
 import SignupPage from "./pages/SignupPage/SignupPage.jsx";
 import LoginPage from "./pages/LoginPage/LoginPage.jsx";
+import ShowLinks from './components/ShowLinks/ShowLinks';
 
 class App extends Component {
   render() {
@@ -25,7 +26,7 @@ class App extends Component {
         <Link to="signup" className="navbar-brand">Sign up</Link>
         <Link to="/list" className="navbar-brand"> Available Episodes</Link>
         <Link to="/create" className="navbar-brand">Create an Episode entry </Link>
-       
+       <Link to="/links" className="navbar-brand"> Show Links </Link>
 
 
         <div className="collapse navbar-collapse">
@@ -43,8 +44,8 @@ class App extends Component {
         <Route path="/signup" component={SignupPage}/>
         <Route path="/login" component={LoginPage}/>
         <Route path="/edit/:id" component={EditEpisodes} />
-        <Route path="/create" component={CreateEpisode} />
-     
+        <Route path="/create" component={CreateEpisodesSeason} />
+        <Route path="/links" component={ShowLinks} />
         </div>
         </Router>
     );
