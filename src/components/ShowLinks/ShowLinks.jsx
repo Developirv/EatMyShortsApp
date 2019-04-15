@@ -4,7 +4,7 @@ export default class ShowLinks extends Component {
     render() {
         return (
             <div>
-                <p>Here you will find all the sweet sweet places you can find our content. Please register your disgust on the internet </p>
+                <iframe src="https://open.spotify.com/embed/show/441Ajk0RlCQpSzUQX0k7Hm" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
 
         )

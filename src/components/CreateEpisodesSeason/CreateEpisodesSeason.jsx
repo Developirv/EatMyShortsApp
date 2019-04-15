@@ -49,6 +49,65 @@ import styles from './CreateEpisodesSeason.module.css';
           </select>
         </label>
         <input type="submit" value="Submit" />
+
+        <label>
+          What is the title of the episode?
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="one"> Pukahontas. </option>
+          </select>
+        </label>
+        <input type="submit" value="Submit" />
+
+        <label>
+          Enter a description for this episode.
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="one"> This episode was  </option>
+          </select>
+        </label>
+        <input type="submit" value="Submit" />
+
+        <label>
+          Original Air Date.
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="one"> When did the original air date of this episode on television? </option>
+          </select>
+        </label>
+        <input type="submit" value="Submit" />
+
+
+        <label>
+         Show Date
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="one"> When did EMS discuss this episode? </option>
+          </select>
+        </label>
+        <input type="submit" value="Submit" />
+
+        <label>
+         Show Notes
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="one"> recurring bits..gimmicks.. etc. here</option>
+          </select>
+        </label>
+        <input type="submit" value="Submit" />
+
+        <label>
+         Special Guest
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="one"> Was there a special guest for this episode? </option>
+          </select>
+        </label>
+        <input type="submit" value="Submit" />
+
+        <label>
+         Episode Rating
+          <select value={this.state.value} onChange={this.handleChange}>
+            <option value="one"> What was the show rating? </option>
+          </select>
+        </label>
+        <input type="submit" value="Submit" />
+
+
       </form>
     );
   }
