@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import CreateEpisodesSeason from "./components/CreateEpisodesSeason/CreateEpisodesSeason.jsx";
-import EditEpisodes from "./components/EditEpisodes/EditEpisodes.jsx";
 import EpisodeList from "./components/EpisodeList/EpisodeList.jsx";
 import logo from "./logo.png";
 import SignupPage from "./pages/SignupPage/SignupPage.jsx";
 import LoginPage from "./pages/LoginPage/LoginPage.jsx";
+import CreateEpisodePage from "./pages/CreateEpisodePage/CreateEpisodePage.jsx";
 import ShowLinks from './components/ShowLinks/ShowLinks';
 
 class App extends Component {
@@ -43,8 +42,7 @@ class App extends Component {
         <Route path="/home" component={EpisodeList} />
         <Route path="/signup" component={SignupPage}/>
         <Route path="/login" component={LoginPage}/>
-        <Route path="/edit/:id" component={EditEpisodes} />
-        <Route path="/create" component={CreateEpisodesSeason} />
+        <Route path="/create" component={CreateEpisodePage} />
         <Route path="/links" component={ShowLinks} />
         </div>
         </Router>

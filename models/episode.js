@@ -4,6 +4,7 @@ var Schema = mongoose.Schema;
 
 var episodeSchema = new Schema({
     title: String,
+    season: String,
     description: String,
     showDate: String,
     episodeAirDate: String,

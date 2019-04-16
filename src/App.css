@@ -56,6 +56,11 @@
   color: pink;
 }
 
+.btn-default { 
+  color: white;
+  background-color: pink;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
