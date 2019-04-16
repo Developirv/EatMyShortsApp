@@ -16,6 +16,7 @@ The "Create An Episode" entry will allow the hosts to add in the following new d
    Episode Original Air Date:
    Episode Show Notes: 
    Episode Rating: 
+   Special Guest ?:
    Episode Link: 
 
    Upon clicking "submit" this information will be added to the database with other previous Episode entries.
@@ -49,6 +50,8 @@ https://eatmyshortspod.imgur.com/all
 ## Unsolved Problems
 
 I will list the unsolved problems left after sprint completion here.
+
+Problems Faced: Create an Episode entry is making my compu wheeze really loud so I think I put too much into it.
 
 ## Future Enhancements
 
