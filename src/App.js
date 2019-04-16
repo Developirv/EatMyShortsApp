@@ -4,9 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import EpisodeList from "./components/EpisodeList/EpisodeList.jsx";
 import logo from "./logo.png";
+//import ShortsLogo from "./components/ShortsLogo/ShortsLogo";
 import SignupPage from "./pages/SignupPage/SignupPage.jsx";
 import LoginPage from "./pages/LoginPage/LoginPage.jsx";
 import AndroidsDungeon from "./components/AndroidsDungeon/AndroidsDungeon";
+//import Form from "./components/Form/Form";
 import StoleMyBit from "./components/StoleMyBit/StoleMyBit";
 import userService from "./utils/userService";
 //import Player from "/.components/Player/Player.jsx";
@@ -26,6 +28,9 @@ class App extends Component {
           <a class="navbar-brand" href="https://open.spotify.com/show/441Ajk0RlCQpSzUQX0k7Hm?si=CVc7VHesSam5VLxrj_S50A" target="blank"> 
              <img src={logo} width="40" height="35" alt="eatmyshortspod.com" />  
          </a>
+
+
+
        
         <Link to="/" className="navbar-brand"> Home</Link>  
         <Link to="/login" className="navbar-brand"> Login</Link>  
@@ -53,15 +58,13 @@ class App extends Component {
         <Route path="/signup" component={SignupPage}/>
         <Route path="/shop" component={AndroidsDungeon}/>
         <Route path="/bits" component={StoleMyBit}/>
-        <Route path="/create" component={CreateEpisodePage}/>
+
+        <Route path="/create" component={CreateEpisodePage}/>*/}
         <Route path="/links" component={ShowLinks} />
         </div>
         </Router>
 
-
-
-
-
+    
     );
   }
 }
