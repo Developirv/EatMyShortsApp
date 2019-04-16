@@ -1,11 +1,14 @@
+import React from 'react'
+
+
 const Button = (props) => {
     console.log(props.style);
     return(
-        <button 
+        <Button 
             style= {props.style} 
             onClick= {props.action}>    
             {props.title} 
-        </button>)
+        </Button>)
 }
 
 export default Button;

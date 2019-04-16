@@ -1,3 +1,6 @@
+import React from 'react'
+
+
 const CheckBox = (props) => {
 
     return( <div>
@@ -22,3 +25,5 @@ const CheckBox = (props) => {
 );
 
 }
+
+export default CheckBox

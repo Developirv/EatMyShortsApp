@@ -46,8 +46,8 @@ class LoginPage extends Component {
           </div>
           <div className="form-group">
             <div className="col-sm-12 text-center">
-              <button className="btn btn-default">Eat Pant!</button>&nbsp;&nbsp;&nbsp;
-              <Link to='/'>Smell ya later.</Link>
+              <button className="btn btn-default">Login</button>&nbsp;&nbsp;&nbsp;
+              <Link to='/'>Smell Ya Later</Link>
             </div>
           </div>
         </form>

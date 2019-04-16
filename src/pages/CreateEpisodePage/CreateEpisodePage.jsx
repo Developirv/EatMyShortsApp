@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import Input from './components/Input.jsx';
-import TextArea from './components/TextArea.jsx';
-import CheckBox from './components/CheckBox.jsx';
-import Button from './components/Button.jsx';
-//import Select from './components/Select/Select';
+import Input from '../../components/Input';
+import TextArea from '../../components/TextArea';
+import CheckBox from '../../components/Checkbox';
+import Button from '../../components/Button';
+import userService from '../../utils/userService';
+import Select from '../../components/Select';
 
 class CreateEpisodePage extends Component {  
   constructor(props) {
@@ -19,10 +20,12 @@ class CreateEpisodePage extends Component {
         shownotes: '',
         rating: '',
         links:'',
-        specialguest: ''
+        specialguest: '',
+        //user: userService.getUser()
       },
     }
-
+//
+ 
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
     this.handleClearForm = this.handleClearForm.bind(this);
   }
@@ -31,9 +34,9 @@ class CreateEpisodePage extends Component {
 
   handleFormSubmit(e) {
     e.preventDefault();
-    let userData = this.state.newUser;
+    let userData = this.state.newEpisode;
 
-    fetch('http://example.com',{
+    fetch('/list',{
         method: "POST",
         body: JSON.stringify(userData),
         headers: {

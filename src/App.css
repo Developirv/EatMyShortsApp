@@ -1,13 +1,16 @@
 .App {
   text-align: center;
-  color: pink;
+  color: whitesmoke;
+  background-color: pink;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-  color: pink;
+  color: whitesmoke;
+  background-color: pink;
+
 }
 
 .App-header {
@@ -22,8 +25,8 @@
 }
 
 .container {
-  background-color: white;
-  color: pink;
+  color: whitesmoke;
+  background-color: pink;
   font-size: 18px;
   font: helvetica;
   box-align: center;
@@ -33,32 +36,51 @@
   background-image: './logo.png';
   border-radius: 2px;
   display: inline;
-  color: pink;
+  color: whitesmoke;
+  background-color: pink;
 }
 
 .App-link {
-  color: white;
-  background-color: black;
+  color: whitesmoke;
+  background-color: pink;
   font-size: 12px;
 }
 
 .nav {
   color: pink;
-  background-color: black;
+  background-color: white !important;
 }
 
+.navbar-expand-lg {
+  color: pink !important;
+  background-color: white !important;
+}
+
+
 .navbar-brand {
-  color: pink;
-  background-color: white;
+  color: pink !important;
+  background-color: white !important;
 }
 
 .navbar-item {
   color: pink;
+  background-color: white;
 }
 
+.navbar {
+  color: pink;
+  background-color: white;
+}
+
+a {
+  color: white !important;
+  font-size: 20px;
+}
+
+
 .btn-default { 
-  color: white;
-  background-color: pink;
+  color: pink;
+  background-color: white;
 }
 
 @keyframes App-logo-spin {

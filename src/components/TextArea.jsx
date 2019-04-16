@@ -1,3 +1,6 @@
+import React from 'react'
+
+
 const TextArea = (props) => {
     return (  
   <div className="form-group">
